@@ -35,7 +35,6 @@ Le principe est assez simple :
 ````
 gcc Ecoute.c -o Ecoute
 ./Ecoute
-
 ```
 
 
