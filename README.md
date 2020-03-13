@@ -1,5 +1,7 @@
 # Bus logiciel ivy
 
+Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [*ici*](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.3.pdf) <- et plus généralement -> [*cette page*](https://github.com/truillet/upssitech/wiki/Interaction-Distribu%C3%A9e) <- 
+
 ## ivy/c sous linux (ou bash ubuntu sous windows)
 Ouvrir un nouveau terminal
 
