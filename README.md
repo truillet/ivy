@@ -35,7 +35,7 @@ Le principe est assez simple :
 "et voilà" ! 
 
 ````
-gcc Ecoute.c -o Ecoute
+gcc Ecoute.c libivy.a libpcre.a -o Ecoute
 ./Ecoute
 ```
 
