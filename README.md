@@ -10,7 +10,7 @@ Télécharger [prcre-7.7](https://github.com/truillet/ivy/blob/master/lib/pcre-7
 Télécharger [ivy C](https://github.com/truillet/ivy/blob/master/lib/ivy.zip) et dézipper les fichiers dans le répertoire ivy
 
 Utiliser les commandes suivantes : compiler la librairie PCRE puis ivy
-```cd prce-7.7\n
+```cd prce-7.7
 ./configure
 make
 sudo make install
