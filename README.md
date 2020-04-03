@@ -24,7 +24,7 @@ Vous pouvez maintenant essayer l'outil *ivyprobe*
 ./ivyprobe "^(.*)"
 ```
 
-Il est temps maintenant de coder votre première application ivy/C (le code est [*ici*](https://github.com/truillet/ivy/blob/master/code/example_c.zip)). 
+Il est temps maintenant de coder votre première application ivy/C. 
 
 Le principe d'usage est assez simple : 
 * On initialise l'agent sur le bus (**IvyInit**)
@@ -34,7 +34,7 @@ Le principe d'usage est assez simple :
 
 "et voilà" ! 
 
-Récupérer le code [*ici*](https://github.com/truillet/ivy/blob/master/code/example_c.zip)).
+Récupérer le code [*ici*](https://github.com/truillet/ivy/blob/master/code/example_c.zip).
 
 Décompresser le fichier, aller dans le répertoire créé
 
