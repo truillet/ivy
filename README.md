@@ -1,6 +1,6 @@
 # Bus logiciel ivy
 
-Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [*ici*](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.3.pdf) <- et plus généralement -> [*cette page*](https://github.com/truillet/upssitech/wiki/Interaction-Distribu%C3%A9e) <- 
+Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [*ici*](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.3.pdf) <- 
 
 ## ivy/c sous linux (ou bash ubuntu sous windows)
 Ouvrir un nouveau terminal
@@ -44,11 +44,18 @@ Recopier les fichiers libivy.a et libprce.a précédemment compilés dans ce ré
 ````
 gcc Ecoute.c libivy.a libpcre.a -o Ecoute
 ./Ecoute
-```
-
+````
 
 ## ivy/java (et Processing)
+Le liens vers la librairie [ivy-java](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/ivy-java-1.2.18.jar):
+
+**Pour lancer Probe java** : _java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.255:2010_ (ou télécharger l'outil [ici](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Probe.zip)) 
 
 
 ## ivy/python
+La librairie pour Python : [ivy-python](https://pypi.org/project/ivy-python)
+  
+*Un exemple de programme ivy avec python** : [ivyfirst.py](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/ivyfirst.py)
 
+## ivy/nodeJS
+La librairie pour nodeJS-javascript : [node-ivy](https://github.com/nilpotence/node-ivy)
