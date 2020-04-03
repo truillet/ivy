@@ -35,8 +35,11 @@ Le principe d'usage est assez simple :
 "et voilà" ! 
 
 Récupérer le code [*ici*](https://github.com/truillet/ivy/blob/master/code/example_c.zip)).
+
 Décompresser le fichier, aller dans le répertoire créé
+
 Recopier les fichiers libivy.a et libprce.a précédemment compilés dans ce répertoire.
+
 
 ````
 gcc Ecoute.c libivy.a libpcre.a -o Ecoute
