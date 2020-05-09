@@ -2,6 +2,8 @@
 
 Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [*ici*](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.3.pdf) <- 
 
+Au préalable, il faudra installer les paquets : **make**, **g++**, **gcc**, **libx11-dev** et **xorg**
+
 ## ivy/c sous linux (ou bash ubuntu sous windows)
 Ouvrir un nouveau terminal
 
