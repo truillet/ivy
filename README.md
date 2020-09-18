@@ -57,7 +57,7 @@ Le lien vers la librairie Java : [ivy-java](https://github.com/truillet/upssitec
 ## ivy/python
 La librairie pour Python : [ivy-python](https://pypi.org/project/ivy-python)
   
-*Un exemple de programme ivy avec python** : [ivyfirst.py](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/ivyfirst.py)
+*Un exemple de programme ivy avec python* : [ivyfirst.py](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/ivyfirst.py)
 
 ## ivy/nodeJS
 La librairie pour nodeJS-javascript : [node-ivy](https://github.com/nilpotence/node-ivy)
