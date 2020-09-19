@@ -47,6 +47,7 @@ Recopier les fichiers libivy.a et libprce.a précédemment compilés dans ce ré
 gcc Ecoute.c libivy.a libpcre.a -o Ecoute
 ./Ecoute
 ````
+## ivy/c#
 
 ## ivy/java (et Processing)
 Le lien vers la librairie Java : [ivy-java](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/ivy-java-1.2.18.jar)
