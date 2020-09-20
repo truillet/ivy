@@ -48,6 +48,7 @@ gcc Ecoute.c libivy.a libpcre.a -o Ecoute
 ./Ecoute
 ````
 ## ivy/c#
+La [dll ivy](https://github.com/truillet/ivy/blob/master/lib/Ivy.dll) pour C#
 
 ## ivy/java (et Processing)
 Le lien vers la librairie Java : [ivy-java](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/ivy-java-1.2.18.jar)
