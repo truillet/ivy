@@ -48,7 +48,7 @@ gcc Ecoute.c libivy.a libpcre.a -o Ecoute
 ./Ecoute
 ````
 ## ivy/c#
-La [dll ivy](https://github.com/truillet/ivy/blob/master/lib/Ivy.dll) pour C#
+La [dll ivy](https://github.com/truillet/ivy/blob/master/lib/Ivy.dll) pour C# (x64)
 
 ## ivy/java (et Processing)
 Le lien vers la librairie Java : [ivy-java](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/ivy-java-1.2.18.jar)
@@ -57,7 +57,7 @@ La [Javadoc est téléchargeable ici](https://github.com/truillet/ivy/blob/maste
 
 **Pour lancer Probe java** : _java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.255:2010_ (ou télécharger l'outil [ici](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/Probe.zip)) 
 
-*Un exemple de programme ivy avec Processing.org* : ivySender et ivyReceiver 
+*Un exemple de programme ivy avec Processing.org* : [ivySender et ivyReceiver](https://github.com/truillet/ivy/blob/master/code/ivyP5.zip) 
 
 ## ivy/python
 La librairie pour Python : [ivy-python](https://pypi.org/project/ivy-python)
@@ -66,7 +66,7 @@ La librairie pour Python : [ivy-python](https://pypi.org/project/ivy-python)
 
 *Un exemple de programme ivy avec python2* : [ivyfirst.py](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/ivyfirst.py)
 
-*Un exemple de programme ivy avec python3* : [ivyfirst3.py](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/ivyfirst3.py)
+*Un exemple de programme ivy avec python3* : [ivyfirst3.py](https://github.com/truillet/ivy/blob/master/code/ivyfirst3.py)
 
 ## ivy/nodeJS
 La librairie pour nodeJS-javascript : [node-ivy](https://github.com/nilpotence/node-ivy)
