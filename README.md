@@ -62,9 +62,10 @@ La [Javadoc est téléchargeable ici](https://github.com/truillet/ivy/blob/maste
 ## ivy/python
 La librairie pour Python : [ivy-python](https://pypi.org/project/ivy-python)
 
-**Pour installer la librairie** : __sudo pip3 install ivy-python__
+**Pour installer la librairie** : _sudo pip3 install ivy-python_
 
 *Un exemple de programme ivy avec python2* : [ivyfirst.py](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/ivyfirst.py)
+
 *Un exemple de programme ivy avec python3* : [ivyfirst3.py](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/ivyfirst3.py)
 
 ## ivy/nodeJS
