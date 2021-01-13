@@ -57,7 +57,9 @@ Le lien vers la librairie Java : [ivy-java 12.18](https://github.com/truillet/iv
 
 La [Javadoc est téléchargeable ici](https://github.com/truillet/ivy/blob/master/lib/javadoc-ivy-1.2.18.zip)
 
-**Pour lancer Probe java** : _java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.255:2010_ (ou télécharger l'outil [ici](https://github.com/truillet/ivy/blob/master/code/Probe.zip)) 
+**Pour lancer Probe java** : _java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.255:2010_ (ou télécharger l'outil [ici](https://github.com/truillet/ivy/blob/master/code/Probe.zip))
+
+**Un superviseur graphique des agents ivy** [visionneur](https://github.com/truillet/ivy/blob/master/lib/visionneur_1_2.zip)
 
 *Un exemple de programme ivy avec Processing.org* : [ivySender et ivyReceiver](https://github.com/truillet/ivy/blob/master/code/ivyP5.zip) 
 
