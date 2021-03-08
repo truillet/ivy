@@ -50,7 +50,7 @@ gcc Ecoute.c libivy.a libpcre.a -o Ecoute
 ## ivy/c#
 La [dll ivy](https://github.com/truillet/ivy/blob/master/lib/ivy_csharp_dll.zip) pour C# (x86 et x64)
 
-*Un exemple de code ivy avec C#*
+*[Un exemple de code ivy avec C#](https://github.com/truillet/ivy/blob/master/code/ppilot_src.zip)* et *[l'exécutable associé](https://github.com/truillet/ivy/blob/master/lib/ppilot5_v3.2.zip)*
 
 ## ivy/java (et Processing)
 Le lien vers la librairie Java : [ivy-java 12.18](https://github.com/truillet/ivy/blob/master/lib/ivy-java-1.2.18.jar) ou [ivy-java 12.17](https://github.com/truillet/ivy/blob/master/lib/ivy-java-1.2.17.jar)
