@@ -57,7 +57,11 @@ Le lien vers la librairie Java : [ivy-java 12.18](https://github.com/truillet/iv
 
 La [Javadoc est téléchargeable ici](https://github.com/truillet/ivy/blob/master/lib/javadoc-ivy-1.2.18.zip)
 
-**Pour lancer Probe java** : _java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.255:2010_ (ou télécharger l'outil [ici](https://github.com/truillet/ivy/blob/master/code/Probe.zip))
+**Pour lancer Probe java** : 
+```
+java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.255:2010
+```
+(ou télécharger l'outil [ici](https://github.com/truillet/ivy/blob/master/code/Probe.zip))
 
 **Un superviseur graphique des agents ivy** [visionneur](https://github.com/truillet/ivy/blob/master/lib/visionneur_1_2.zip)
 
@@ -66,7 +70,10 @@ La [Javadoc est téléchargeable ici](https://github.com/truillet/ivy/blob/maste
 ## ivy/python
 La librairie pour Python : [ivy-python](https://pypi.org/project/ivy-python) (v.3.3 au 02/02/2021)
 
-**Pour installer la librairie** : _sudo pip3 install ivy-python_ (Python3)
+**Pour installer la librairie (Python3)** : 
+```
+sudo pip3 install ivy-python
+```
 
 *Un exemple de programme ivy avec python2* : [ivyfirst.py](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/ivyfirst.py)
 
