@@ -44,7 +44,7 @@ Recopier les fichiers libivy.a et libprce.a précédemment compilés dans ce ré
 
 
 ````
-gcc Ecoute.c libivy.a libpcre.a -o Ecoute
+gcc Ecoute.c -o Ecoute –L. –livy -lpcre
 ./Ecoute
 ````
 ## ivy/c#
