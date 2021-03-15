@@ -11,16 +11,20 @@ Télécharger [prcre-7.7](https://github.com/truillet/ivy/blob/master/lib/pcre-7
 
 Télécharger [ivy C](https://github.com/truillet/ivy/blob/master/lib/ivy.zip) et dézipper les fichiers dans le répertoire **ivy**
 
-Utiliser les commandes suivantes : compiler la librairie PCRE puis ivy
+Utiliser les commandes suivantes : compiler la librairie PCRE
 ```cd prce-7.7
 ./configure
 make
 sudo make install
 export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib
+```
+Les librairies PCRE compilées sont stockées dans le répertoire **.libs**. Compiler maintenant la librairie ivy 
+
+```
 cd ../ivy
 make
 ```
-Vous pouvez maintenant essayer l'outil *ivyprobe*
+Vous pouvez maintenant essayer l'outil *ivyprobe* en lançant la commande
 
 ```
 ./ivyprobe "^(.*)"
@@ -38,18 +42,23 @@ Le principe d'usage est assez simple :
 
 Récupérer le code [*ici*](https://github.com/truillet/ivy/blob/master/code/example_c.zip).
 
-Décompresser le fichier, aller dans le répertoire créé
+Décompresser le fichier, aller dans le répertoire créé (par exemple *ivy_exemple*).
 
-Recopier les fichiers libivy.a et libprce.a précédemment compilés dans ce répertoire.
-
+Recopier les fichiers **libivy.a** (depuis le répertoire *ivy*) et **libprce.a** (depuis le répertoire *pcre7.7/.libs*) précédemment compilés dans ce répertoire.
+``
+cd ~/cd ivy_exemple
+cp ~/prce7.7/.libs/libpcre.a .
+cp ~/ivy/libivy.a .
+``
+Compiler le code
 
 ````
-gcc Ecoute.c -o Ecoute –L. –livy -lpcre
-(ou)
 gcc Ecoute.c libivy.a libprce.a -o Ecoute
 
 ./Ecoute
 ````
+**Ecoute** est abonné aux messages suivants : *tous '(.\*)'* et *Bye* (qui permet de quitter l'application)
+
 ## ivy/c#
 La [dll ivy](https://github.com/truillet/ivy/blob/master/lib/ivy_csharp_dll.zip) pour C# (x86 et x64)
 
