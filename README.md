@@ -59,6 +59,9 @@ gcc Ecoute.c libivy.a libprce.a -o Ecoute
 ````
 **Ecoute** est abonné aux messages suivants : *tous '(.\*)'* et *Bye* (qui permet de quitter l'application)
 
+**[Lien vers le code source](https://github.com/lii-enac/libivy)**
+
+
 ## ivy/c#
 La [dll ivy](https://github.com/truillet/ivy/blob/master/lib/ivy_csharp_dll.zip) pour C# (x86 et x64)
 
@@ -93,3 +96,11 @@ sudo pip3 install ivy-python
 
 ## ivy/nodeJS
 La librairie pour nodeJS-javascript : [node-ivy](https://github.com/nilpotence/node-ivy)
+
+## ivy/Rust
+La librairie pour Rust : [ivy-rust](https://github.com/paparazzi/ivy-rust)
+
+## divers
+Des ponts entre différents protocoles de communication ont été écrits :
+* [TUIO to ivy](https://github.com/truillet/TUIO2ivy) (Lien vers le protocole [TUIO](https://www.tuio.org))
+
