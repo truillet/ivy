@@ -104,7 +104,7 @@ La librairie pour Rust : [ivy-rust](https://github.com/paparazzi/ivy-rust)
 Des ponts entre différents protocoles de communication ont été écrits :
 * [TUIO to ivy](https://github.com/truillet/TUIO2ivy) (Lien vers le protocole [TUIO](https://www.tuio.org))
 
-## des agents
+## des agents ivy
 * [ppilot 3.2](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.2.zip) : un agent Text-to-Speech (SAPI5 avec support SSML) *windows* 
 * *sra5* ; un agent de reconnaissance vocale (SAPI5, support GrXML) * windows*
 * [tobiiIvy](https://github.com/truillet/ivy/blob/master/agents/tobiiIvy.zip) : un agent eye-tracker pour Tobii 4C *windows*
