@@ -1,6 +1,6 @@
 # Bus logiciel ivy
 
-Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [*ici*](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.4.pdf) <- ou l'article publié à **[IHM 2012](https://hal-enac.archives-ouvertes.fr/hal-00940960/document)**
+Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [*ici*](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.5.pdf) <- ou l'article publié à **[IHM 2012](https://hal-enac.archives-ouvertes.fr/hal-00940960/document)**
 
 
 ## ivy/c sous linux (ou bash ubuntu sous windows)
