@@ -85,7 +85,7 @@ java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.25
 *Un exemple de programme ivy avec Processing.org* : [ivySender et ivyReceiver](https://github.com/truillet/ivy/blob/master/code/ivyP5.zip) 
 
 ## ivy/python
-La librairie pour Python : [ivy-python](https://pypi.org/project/ivy-python) (v.3.3 au 02/02/2021) ou [lien Gitlab](https://gitlab.com/ivybus/ivy-python)
+La librairie pour Python : [ivy-python](https://pypi.org/project/ivy-python) (v.3.3 au 02/02/2021) ou [lien Gitlab](https://gitlab.com/ivybus/ivy-python) (**[documentation](https://ivy-python.readthedocs.io/en/latest/index.html)**)
 
 **Pour installer la librairie (Python3)** : 
 ```
