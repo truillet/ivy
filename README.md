@@ -2,12 +2,15 @@
 
 Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [*ici*](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.5.pdf) <- ou l'article publié à **[IHM 2012](https://hal-enac.archives-ouvertes.fr/hal-00940960/document)**
 
+Vous pourrez aussi trouver des informations sur le site du projet [Paparazzi(https://wiki.paparazziuav.org/wiki/Ivy)
 
 ## ivy/c sous linux (ou bash ubuntu sous windows)
 Ouvrir un nouveau terminal
 
 Au préalable, il faudra installer les paquets : **make**, **g++**, **gcc**, **libx11-dev** et **xorg**
+
 Télécharger [prcre-7.7](https://github.com/truillet/ivy/blob/master/lib/pcre-7.7.zip) (*P*erl *C*ompatible *R*egex *E*xpression) et dézipper les fichiers dans le répertoire **pcre-7.7**
+
 Télécharger [ivy C](https://github.com/truillet/ivy/blob/master/lib/ivy.zip) et dézipper les fichiers dans le répertoire **ivy**
 
 Utiliser les commandes suivantes : compiler la librairie PCRE
