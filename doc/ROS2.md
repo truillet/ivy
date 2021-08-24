@@ -10,9 +10,7 @@ Pour compiler votre package, se postionner dans *~/ros2/src* et taper les comman
 
 ``
 colcon build --packages-select <votre package>
-
 . install.setup.bash
-
 ros2 run <votre package> <votre noeud>
 ``
 
