@@ -105,7 +105,7 @@ La librairie pour Rust : [ivy-rust](https://github.com/paparazzi/ivy-rust)
 ## divers
 Des ponts entre différents protocoles de communication ont été écrits :
 * [TUIO to ivy](https://github.com/truillet/TUIO2ivy) (Lien vers le protocole [TUIO](https://www.tuio.org))
-* ivy to ROS2 ([installation et copilation du noeud ROS]())
+* [ivy to ROS2](https://github.com/truillet/ivy/blob/master/code/bridge.zip) ([installation et compilation du noeud ROS](https://github.com/truillet/ivy/blob/master/doc/ROS2.md))
 
 ## des agents ivy
 * [OneDollarIvy](https://github.com/truillet/OneDollarIvy) : un agent de reconnaissance de gestes basé sur l'algorithme *"$1 recognizer"*
