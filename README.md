@@ -1,6 +1,6 @@
 # Bus logiciel ivy
 
-Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [*ici*](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.5.pdf) <- ou l'article publié à **[IHM 2012](https://hal-enac.archives-ouvertes.fr/hal-00940960/document)**
+Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [**ici**](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.5.pdf) <- ou l'article publié à **[IHM 2012](https://hal-enac.archives-ouvertes.fr/hal-00940960/document)**
 
 Vous pourrez aussi trouver des informations sur le site du projet *[Paparazzi](https://wiki.paparazziuav.org/wiki/Ivy)*
 
