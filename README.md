@@ -31,6 +31,7 @@ Vous pouvez maintenant essayer l'outil *ivyprobe* en lançant la commande
 ```
 ./ivyprobe "^(.*)"
 ```
+Par défaut, ivy se lance sur l'adresse 127.255.255.255:2010 (adresse de broadcast "127.255.255.255" sur le port 2010). Rien ne vous empêche d'en changer 😉 : adresse IP , adresse de broadcast ou de multicast (Ex : 224.0.0.0:2010) [utile si vous voulez connecter vos applications entre windows et WSL2].
 
 Il est temps maintenant de coder votre première application ivy/C. 
 
