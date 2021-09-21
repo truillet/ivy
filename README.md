@@ -4,6 +4,15 @@ Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [**
 
 Vous pourrez aussi trouver des informations sur le site du projet *[Paparazzi](https://wiki.paparazziuav.org/wiki/Ivy)*
 
+## superviseur du middleware (pour suivre l'émission/réception des messages ivy
+**Un supervisieur du middleware en mode CLI - Probe (java)** : 
+```
+java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.255:2010
+```
+(ou télécharger l'outil [ici](https://github.com/truillet/ivy/blob/master/code/Probe.zip))
+
+**Un superviseur du middleware en mode GUI  - visionneur (java)** [visionneur](https://github.com/truillet/ivy/blob/master/lib/visionneur_1_2.zip)
+
 ## ivy/c sous linux (ou bash ubuntu sous windows)
 Ouvrir un nouveau terminal
 
@@ -75,15 +84,8 @@ Le lien vers la librairie Java : [ivy-java 12.18](https://github.com/truillet/iv
 
 La [Javadoc est téléchargeable ici](https://github.com/truillet/ivy/blob/master/lib/javadoc-ivy-1.2.18.zip)
 
-**Pour lancer Probe java** : 
-```
-java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.255:2010
-```
-(ou télécharger l'outil [ici](https://github.com/truillet/ivy/blob/master/code/Probe.zip))
 
-**Un superviseur graphique des agents ivy** [visionneur](https://github.com/truillet/ivy/blob/master/lib/visionneur_1_2.zip)
-
-*Un exemple de programme ivy avec Processing.org* : [ivySender et ivyReceiver](https://github.com/truillet/ivy/blob/master/code/ivyP5.zip) 
+* Un exemple de programme ivy avec Processing.org* : [ivySender et ivyReceiver](https://github.com/truillet/ivy/blob/master/code/ivyP5.zip) 
 
 ## ivy/python
 La librairie pour Python : [ivy-python](https://pypi.org/project/ivy-python) (v.3.3 au 02/02/2021) ou [lien Gitlab](https://gitlab.com/ivybus/ivy-python) (**[documentation](https://ivy-python.readthedocs.io/en/latest/index.html)**)
@@ -111,7 +113,7 @@ Des ponts entre différents protocoles de communication ont été écrits :
 ## des agents ivy
 * [OneDollarIvy](https://github.com/truillet/OneDollarIvy) : un agent (*Processing.org*) de reconnaissance de gestes basé sur l'algorithme *"$1 recognizer"*
 * [ppilot 3.2](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.2.zip) : un agent (*C#*) Text-to-Speech (SAPI5 avec support SSML) *windows* 
-* [sra5](https://github.com/truillet/upssitech/blob/master/SRI/3A/IHM/TP/Code/sra5.zip) : un agent (*C#*) de reconnaissance vocale (SAPI5, support GrXML) *windows*
+* [sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip) : un agent (*C#*) de reconnaissance vocale (SAPI5, support GrXML) *windows*
 * [SR_Ivy](https://github.com/truillet/tas_de_code/blob/master/Speech_Recognition/SR_ivy.py) : un agent (*python*) de reconnaissance vocale (Google Voice) *linux, macOS, windows*
 * [tobiiIvy](https://github.com/truillet/ivy/blob/master/agents/tobiiIvy.zip) : un agent (*C#*)eye-tracker pour [Tobii xC](https://gaming.tobii.com/product/eye-tracker-5) *windows*
 * [tobiiP5](https://github.com/truillet/ivy/blob/master/agents/tobiiP5.zip) : un exemple (*Processing.org*) d'usage de *tobiiIvy* 
