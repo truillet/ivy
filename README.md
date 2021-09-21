@@ -4,16 +4,17 @@ Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [**
 
 Vous pourrez aussi trouver des informations sur le site du projet *[Paparazzi](https://wiki.paparazziuav.org/wiki/Ivy)*
 
-## superviseur du middleware (pour suivre l'émission/réception des messages ivy
+## superviseur du middleware (pour suivre l'émission/réception des messages ivy)
 **Un supervisieur du middleware en mode CLI - Probe (java)** : 
 ```
 java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.255:2010
 ```
-(ou télécharger l'outil [ici](https://github.com/truillet/ivy/blob/master/code/Probe.zip))
+(ou télécharger l'outil Probe **[ici]** (https://github.com/truillet/ivy/blob/master/code/Probe.zip))
 
-**Un superviseur du middleware en mode GUI  - visionneur (java)** [visionneur](https://github.com/truillet/ivy/blob/master/lib/visionneur_1_2.zip)
+**Un superviseur du middleware en mode GUI  - visionneur (java)** [visionneur.zip v 1.2](https://github.com/truillet/ivy/blob/master/lib/visionneur_1_2.zip)
 
-## ivy/c sous linux (ou bash ubuntu sous windows)
+
+## compiler et utiliser la livrairie ivy/c sous linux (ou bash ubuntu sous windows)
 Ouvrir un nouveau terminal
 
 Au préalable, il faudra installer les paquets : **make**, **g++**, **gcc**, **libx11-dev** et **xorg**
@@ -74,12 +75,12 @@ gcc Ecoute.c libivy.a libprce.a -o Ecoute
 **[Lien vers le code source](https://github.com/lii-enac/libivy)**
 
 
-## ivy/c#
+## librairie ivy/c#
 La [dll ivy](https://github.com/truillet/ivy/blob/master/lib/ivy_csharp_dll.zip) pour C# (x86 et x64)
 
 *[Un exemple de code ivy avec C#](https://github.com/truillet/ivy/blob/master/code/ppilot_src.zip)* et *[l'exécutable associé](https://github.com/truillet/ivy/blob/master/lib/ppilot5_v3.2.zip)*
 
-## ivy/java (et Processing)
+## librairie ivy/java (et Processing)
 Le lien vers la librairie Java : [ivy-java 12.18](https://github.com/truillet/ivy/blob/master/lib/ivy-java-1.2.18.jar) ou [ivy-java 12.17](https://github.com/truillet/ivy/blob/master/lib/ivy-java-1.2.17.jar)
 
 La [Javadoc est téléchargeable ici](https://github.com/truillet/ivy/blob/master/lib/javadoc-ivy-1.2.18.zip)
@@ -87,7 +88,7 @@ La [Javadoc est téléchargeable ici](https://github.com/truillet/ivy/blob/maste
 
 * Un exemple de programme ivy avec Processing.org* : [ivySender et ivyReceiver](https://github.com/truillet/ivy/blob/master/code/ivyP5.zip) 
 
-## ivy/python
+## librairie ivy/python
 La librairie pour Python : [ivy-python](https://pypi.org/project/ivy-python) (v.3.3 au 02/02/2021) ou [lien Gitlab](https://gitlab.com/ivybus/ivy-python) (**[documentation](https://ivy-python.readthedocs.io/en/latest/index.html)**)
 
 **Pour installer la librairie (Python3)** : 
@@ -99,18 +100,18 @@ sudo pip3 install ivy-python
 
 *Un exemple de programme ivy avec python3* : [ivyfirst3.py](https://github.com/truillet/ivy/blob/master/code/ivyfirst3.py)
 
-## ivy/nodeJS
+## librairie ivy/nodeJS
 La librairie pour nodeJS-javascript : [node-ivy](https://github.com/nilpotence/node-ivy)
 
-## ivy/Rust
+## libraririe ivy/Rust
 La librairie pour Rust : [ivy-rust](https://github.com/paparazzi/ivy-rust)
 
-## divers
+## passerelles entre middlewares divers
 Des ponts entre différents protocoles de communication ont été écrits :
 * [TUIO to ivy](https://github.com/truillet/TUIO2ivy) (Lien vers le protocole [TUIO](https://www.tuio.org))
 * [ivy to ROS2](https://github.com/truillet/ivy/blob/master/code/bridge.zip) ([installation et compilation du noeud ROS](https://github.com/truillet/ivy/blob/master/doc/ROS2.md))
 
-## des agents ivy
+## télécharger des agents ivy
 * [OneDollarIvy](https://github.com/truillet/OneDollarIvy) : un agent (*Processing.org*) de reconnaissance de gestes basé sur l'algorithme *"$1 recognizer"*
 * [ppilot 3.2](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.2.zip) : un agent (*C#*) Text-to-Speech (SAPI5 avec support SSML) *windows* 
 * [sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip) : un agent (*C#*) de reconnaissance vocale (SAPI5, support GrXML) *windows*
