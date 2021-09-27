@@ -116,6 +116,6 @@ Des ponts entre différents protocoles de communication ont été écrits :
 * [ppilot 3.2](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.2.zip) : un agent (*C#*) Text-to-Speech (SAPI5 avec support SSML) *windows* 
 * [sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip) : un agent (*C#*) de reconnaissance vocale (SAPI5, support GrXML) *windows*
 * [SR_Ivy](https://github.com/truillet/tas_de_code/blob/master/Speech_Recognition/SR_ivy.py) : un agent (*python*) de reconnaissance vocale (Google Voice) *linux, macOS, windows*
-* [tobiiIvy](https://github.com/truillet/ivy/blob/master/agents/tobiiIvy.zip) : un agent (*C#*)eye-tracker pour [Tobii xC](https://gaming.tobii.com/product/eye-tracker-5) *windows*
+* [tobiiIvy](https://github.com/truillet/ivy/blob/master/agents/tobiiIvy.zip) : un agent (*C#*) eye-tracker pour [Tobii xC](https://gaming.tobii.com/product/eye-tracker-5) *windows*
 * [tobiiP5](https://github.com/truillet/ivy/blob/master/agents/tobiiP5.zip) : un exemple (*Processing.org*) d'usage de *tobiiIvy* 
 
