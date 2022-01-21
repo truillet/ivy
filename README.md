@@ -2,7 +2,9 @@
 
 Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [**ici**](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.5.pdf) <- ou l'article publié à **[IHM 2012](https://hal-enac.archives-ouvertes.fr/hal-00940960/document)**
 
-Vous pourrez aussi trouver des informations sur le site du projet *[Paparazzi](https://wiki.paparazziuav.org/wiki/Ivy)*
+Quelques éléments sont aussi disponibles sur [GitLab](https://gitlab.com/ivybus).
+
+Vous pourrez enfin aussi trouver des informations sur le site du projet *[Paparazzi](https://wiki.paparazziuav.org/wiki/Ivy)*
 
 ## superviseur du middleware (pour suivre l'émission/réception des messages ivy)
 **Un supervisieur du middleware en mode CLI - Probe (java)** : 
@@ -21,7 +23,7 @@ Au préalable, il faudra installer les paquets : **make**, **g++**, **gcc**, **l
 
 Télécharger [prcre-7.7](https://github.com/truillet/ivy/blob/master/lib/pcre-7.7.zip) (*P*erl *C*ompatible *R*egex *E*xpression) et dézipper les fichiers dans le répertoire **pcre-7.7**
 
-Télécharger [ivy C](https://github.com/truillet/ivy/blob/master/lib/ivy.zip) et dézipper les fichiers dans le répertoire **ivy**
+Télécharger [ivy C](https://github.com/truillet/ivy/blob/master/lib/ivy.zip) et dézipper les fichiers dans le répertoire **ivy** (Vous pouvez aussi trouver le code source [--> ici <--](https://gitlab.com/ivybus/ivy-c)
 
 Utiliser les commandes suivantes : compiler la librairie PCRE
 ```cd prce-7.7
@@ -85,8 +87,13 @@ Le lien vers la librairie Java : [ivy-java 12.18](https://github.com/truillet/iv
 
 La [Javadoc est téléchargeable ici](https://github.com/truillet/ivy/blob/master/lib/javadoc-ivy-1.2.18.zip)
 
-
 * Un exemple de programme ivy avec Processing.org* : [ivySender et ivyReceiver](https://github.com/truillet/ivy/blob/master/code/ivyP5.zip) 
+
+## librairie ivy/nodeJS
+La librairie pour nodeJS-javascript : [node-ivy](https://github.com/nilpotence/node-ivy) ou sur [NPM](https://www.npmjs.com/package/node-ivy)
+
+## librairie ivy/OCaml
+La librairie pour OCaml : [ivy/ocaml](https://gitlab.com/ivybus/ivy-ocaml)
 
 ## librairie ivy/python
 La librairie pour Python : [ivy-python](https://pypi.org/project/ivy-python) (v.3.3 au 02/02/2021) ou [lien Gitlab](https://gitlab.com/ivybus/ivy-python) (**[documentation](https://ivy-python.readthedocs.io/en/latest/index.html)**)
@@ -100,8 +107,8 @@ sudo pip3 install ivy-python
 
 *Un exemple de programme ivy avec python3* : [ivyfirst3.py](https://github.com/truillet/ivy/blob/master/code/ivyfirst3.py)
 
-## librairie ivy/nodeJS
-La librairie pour nodeJS-javascript : [node-ivy](https://github.com/nilpotence/node-ivy)
+## librairie ivy/Qt
+La librairie pour Qt : [IvyQt](https://gitlab.com/ivybus/IvyQt)
 
 ## libraririe ivy/Rust
 La librairie pour Rust : [ivy-rust](https://github.com/paparazzi/ivy-rust)
