@@ -126,3 +126,5 @@ Des ponts entre différents protocoles de communication ont été écrits :
 * [tobiiIvy](https://github.com/truillet/ivy/blob/master/agents/tobiiIvy.zip) : un agent (*C#*) eye-tracker pour [Tobii xC](https://gaming.tobii.com/product/eye-tracker-5) *windows*
 * [tobiiP5](https://github.com/truillet/ivy/blob/master/agents/tobiiP5.zip) : un exemple (*Processing.org*) d'usage de *tobiiIvy* 
 
+## des projets étudiant :)
+* [Le kebab virtuel](https://github.com/AlexandreLanglade/kebab_virtuel)
