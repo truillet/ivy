@@ -15,8 +15,8 @@ java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.25
 
 **Un superviseur du middleware en mode GUI  - visionneur (java)** [visionneur.zip v 1.2](https://github.com/truillet/ivy/blob/master/lib/visionneur_1_2.zip)
 
-
-## compiler et utiliser la livrairie ivy/c sous linux (ou bash ubuntu sous windows)
+## librairie ivy/c
+### compiler et utiliser la livrairie ivy/c sous linux (ou bash ubuntu sous windows)
 Ouvrir un nouveau terminal
 
 Au préalable, il faudra installer les paquets : **make**, **g++**, **gcc**, **libx11-dev** et **xorg**
@@ -74,7 +74,7 @@ gcc Ecoute.c libivy.a libprce.a -o Ecoute
 ````
 **Ecoute** est abonné aux messages suivants : *tous '(.\*)'* et *Bye* (qui permet de quitter l'application)
 
-**[Lien vers le code source](https://github.com/lii-enac/libivy)**
+**[Lien1 vers le code source](https://github.com/lii-enac/libivy)** ou **[Lien1 vers le code source]([https://github.com/lii-enac/libivy](https://gitlab.com/ivybus/ivy-c))**
 
 
 ## librairie ivy/c#
