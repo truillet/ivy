@@ -98,7 +98,7 @@ La librairie pour nodeJS-javascript : [node-ivy](https://github.com/nilpotence/n
 La librairie pour OCaml : [ivy/ocaml](https://gitlab.com/ivybus/ivy-ocaml)
 
 ## librairie ivy/python
-La librairie pour Python : [ivy-python 3.3](https://pypi.org/project/ivy-python) (v.3.3 au 02/02/2021) ou [lien Gitlab](https://gitlab.com/ivybus/ivy-python) (**[documentation](https://ivy-python.readthedocs.io/en/latest/index.html)**) ou [ivy-python 4.0rc1](https://pypi.org/project/ivy-python/4.0rc1) (v.4.0 rc1 au 31/08/20231)
+La librairie pour Python : [ivy-python 3.3](https://pypi.org/project/ivy-python) (v.3.3 au 02/02/2021) ou [lien Gitlab](https://gitlab.com/ivybus/ivy-python) (**[documentation](https://ivy-python.readthedocs.io/en/latest/index.html)**) ou [ivy-python 4.0rc1](https://pypi.org/project/ivy-python/4.0rc1) (v.4.0 rc1 au 31/08/2023)
 
 **Pour installer la librairie (Python3) - version stable 3.3** : 
 ```
