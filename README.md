@@ -83,7 +83,7 @@ La [dll ivy](https://github.com/truillet/ivy/blob/master/lib/ivy_csharp_dll.zip)
 *[Un exemple de code ivy avec C#](https://github.com/truillet/ivy/blob/master/code/ppilot_src.zip)* et *[l'exécutable associé](https://github.com/truillet/ivy/blob/master/lib/ppilot5_v3.2.zip)*
 
 ## librairie ivy/java (et Processing)
-Le lien vers la librairie Java : [ivy-java 12.18](https://github.com/truillet/ivy/blob/master/lib/ivy-java-1.2.18.jar) ou [ivy-java 12.17](https://github.com/truillet/ivy/blob/master/lib/ivy-java-1.2.17.jar)
+Le lien vers la librairie Java : [ivy-java 1.2.18](https://github.com/truillet/ivy/blob/master/lib/ivy-java-1.2.18.jar) ou [ivy-java 1.2.17](https://github.com/truillet/ivy/blob/master/lib/ivy-java-1.2.17.jar)
 
 La [Javadoc est téléchargeable ici](https://github.com/truillet/ivy/blob/master/lib/javadoc-ivy-1.2.18.zip)
 
