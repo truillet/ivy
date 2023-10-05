@@ -98,16 +98,14 @@ La librairie pour nodeJS-javascript : [node-ivy](https://github.com/nilpotence/n
 La librairie pour OCaml : [ivy/ocaml](https://gitlab.com/ivybus/ivy-ocaml)
 
 ## librairie ivy/python
-La librairie pour Python : [ivy-python 3.3](https://pypi.org/project/ivy-python) (v.3.3 au 02/02/2021) ou [lien Gitlab](https://gitlab.com/ivybus/ivy-python) (**[documentation](https://ivy-python.readthedocs.io/en/latest/index.html)**) ou [ivy-python 4.0rc1](https://pypi.org/project/ivy-python/4.0rc1) (v.4.0 rc1 au 31/08/2023)
-
-**Pour installer la librairie (Python3) - version stable 3.3** : 
+La librairie pour Python :  [ivy-python 4.0](https://pypi.org/project/ivy-python) (v.4.0 au 05/10/2023) ou [lien Gitlab](https://gitlab.com/ivybus/ivy-python) (**[documentation](https://ivy-python.readthedocs.io/en/latest/index.html)**) ou [ [ivy-python 3.3](https://pypi.org/project/ivy-python/3.3) (v.3.3 au 02/02/2021) [_compatible Python 2.7_]
+**Pour installer la librairie (Python3) - version stable 4.0** : 
 ```
-sudo pip3 install ivy-python
+sudo pip3 install ivy-python==4.0
 ```
+*Un exemple de programme ivy avec python3* : [ivyfirst3.py](https://github.com/truillet/ivy/blob/master/code/ivyfirst3.py)
 
 *Un exemple de programme ivy avec python2* : [ivyfirst.py](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/ivyfirst.py)
-
-*Un exemple de programme ivy avec python3* : [ivyfirst3.py](https://github.com/truillet/ivy/blob/master/code/ivyfirst3.py)
 
 ## librairie ivy/Qt
 La librairie pour Qt : [IvyQt](https://gitlab.com/ivybus/IvyQt)
