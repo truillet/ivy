@@ -99,6 +99,7 @@ La librairie pour OCaml : [ivy/ocaml](https://gitlab.com/ivybus/ivy-ocaml)
 
 ## librairie ivy/python
 La librairie pour Python :  [ivy-python 4.0](https://pypi.org/project/ivy-python) (v.4.0 au 05/10/2023) ou [lien Gitlab](https://gitlab.com/ivybus/ivy-python) (**[documentation](https://ivy-python.readthedocs.io/en/latest/index.html)**) ou [ [ivy-python 3.3](https://pypi.org/project/ivy-python/3.3) (v.3.3 au 02/02/2021) [_compatible Python 2.7_]
+
 **Pour installer la librairie (Python3) - version stable 4.0** : 
 ```
 sudo pip3 install ivy-python==4.0
