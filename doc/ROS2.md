@@ -14,6 +14,6 @@ colcon build --packages-select <votre package>
 ros2 run <votre package> <votre noeud>
 ~~~~
 
-Si vosus souhaitez voir la liste des topics actifs :
+Si vous souhaitez voir la liste des topics actifs :
 
 ``ros2 topic list -t``
