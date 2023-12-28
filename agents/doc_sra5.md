@@ -1,11 +1,11 @@
 # Utiliser sra5
-**[sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip)** est un agent utilisant le moteur de reconnaissance natif SAPI 5.x de Windows Vista, 7, 8.1 ou 10 et peut renvoyer deux types de solutions issues de la reconnaissance sous deux formats différents :
+**[sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip)** est un agent utilisant le moteur de reconnaissance natif SAPI 5.x de Windows Vista, 7, 8.1 ou 10 et peut renvoyer deux types de solutions issues de la reconnaissance sous deux formats différents : sous forme de séquence orthographique ou sous forme de concepts.
 
 ## Lancement de l’agent en ligne de commandes
 ```
 sra5 -b 127.255.255.255:2010 –p on -g grammaire.grxml
 ```
-Par défaut, sra5 utilise le fichier de grammaire locale *grammaire.grxml*
+Par défaut, **[sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip)** utilise le fichier de grammaire locale *grammaire.grxml*
 
 * **-b** : adresse IP + port
 * **-p** : mode de renvoi des données (mode parsage *on* ou *off*) - Le mode *parsage* consiste à renvoyer comme résultat les <ins>sorties sémantiques</ins> plutôt que la chaîne orthographique.
