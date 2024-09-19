@@ -2,7 +2,7 @@
 
 Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [**ici**](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/Cours/C_ivy_2.6.pdf) <- ou l'article publié à **[IHM 2012](https://hal-enac.archives-ouvertes.fr/hal-00940960/document)**
 
-Quelques éléments sont aussi disponibles sur [GitLab](https://gitlab.com/ivybus).
+Quelques éléments sont aussi disponibles sur [GitLab](https://gitlab.com/ivybus) et/ou [gitpub](https://gitpub.recherche.enac.fr/ivy).
 
 Vous pourrez enfin aussi trouver des informations sur le site du projet *[Paparazzi](https://wiki.paparazziuav.org/wiki/Ivy)*
 
