@@ -21,12 +21,12 @@ Par défaut, **[ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppil
 ppilot5 SaySSML=Je peux parler \<emphasis level="strong"\>très fort\</emphasis\> si je veux !
 
 #### Commandes
-* **ppilot5 Command=Stop**	la synthèse vocale est stoppée. ppilot5 renvoie ppilot Answer=Stopped
-* **ppilot5 Command=Pause**	la synthèse vocale est mise en pause. ppilot5 renvoie ppilot5 Answer=Paused
-* **ppilot5 Command=Resume**	la synthèse vocale est relancée si elle était en pause précédemment. ppilot5 renvoie ppilot5 Answer=Resumed
+* **ppilot5 Command=Stop**	la synthèse vocale est stoppée. ppilot5 renvoie *ppilot5 Answer=Stopped*
+* **ppilot5 Command=Pause**	la synthèse vocale est mise en pause. ppilot5 renvoie *ppilot5 Answer=Paused*
+* **ppilot5 Command=Resume**	la synthèse vocale est relancée si elle était en pause précédemment. ppilot5 renvoie *ppilot5 Answer=Resumed*
 * **ppilot5 Command=Quit**	l’application se ferme
 
 #### Paramètres
-* **ppilot5 Param=Pitch:** value	le pitch est changé par la valeur donnée. ppilot5 renvoie ppilot5 Answer=PitchValueSet:value
-* **ppilot5 Param=Speed:** value	la vitesse est changée par la valeur donnée. ppilot5 renvoie ppilot5 Answer=SpeedValueSet:value
-* **ppilot5 Param=Volume:** value le volume est changé par la valeur donnée. ppilot5 renvoie ppilot5 Answer=VolumeValueSet:value
+* **ppilot5 Param=Pitch:** value	le pitch est changé par la valeur donnée. ppilot5 renvoie *ppilot5 Answer=PitchValueSet:value*
+* **ppilot5 Param=Speed:** value	la vitesse est changée par la valeur donnée. ppilot5 renvoie *ppilot5 Answer=SpeedValueSet:value*
+* **ppilot5 Param=Volume:** value le volume est changé par la valeur donnée. ppilot5 renvoie *ppilot5 Answer=VolumeValueSet:value*
