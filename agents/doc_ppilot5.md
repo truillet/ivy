@@ -14,7 +14,7 @@ Par défaut, **[ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppil
 ### Commandes (UNIQUEMENT sur le [bus ivy](https://github.com/truillet/ivy))
 
 #### Synthèse
-* **ppilot5 Say=**hello	ppilot5 prononce via la TTS utilisée la chaîne de caractères "hello"
+* **ppilot5 Say=** hello	ppilot5 prononce via la TTS utilisée la chaîne de caractères "hello"
 * **ppilot5 SaySSML=** *<sequence_SSML>*	ppilot5 prononce la séquence SSML et renvoie ppilot5 Answer=Finished quand le buffer est vide. Les balises <speak> et </speak> sont automatiquement ajoutées au flux	
 
 **Exemple de séquence SSML :** 
