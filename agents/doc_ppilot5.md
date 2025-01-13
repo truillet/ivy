@@ -15,15 +15,17 @@ Par défaut, **[ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppil
 
 #### Synthèse
 * **ppilot5 Say=** hello	ppilot5 prononce via la TTS utilisée la chaîne de caractères "hello"
-* **ppilot5 SaySSML=** *<sequence_SSML>*	ppilot5 prononce la séquence SSML et renvoie *ppilot5 Answer=Finished* quand le buffer est vide. Les balises <speak> et </speak> sont automatiquement ajoutées au flux	
+* **ppilot5 SaySSML=** *<sequence_SSML>*	ppilot5 prononce la séquence SSML et renvoie *ppilot5 Answer=Finished* quand le buffer est vide. Les balises *\<speak>* et *\</speak>* sont automatiquement ajoutées au flux	
 
 **Exemple de séquence SSML :** 
+```
 ppilot5 SaySSML=Je peux parler \<emphasis level="strong"\>très fort\</emphasis\> si je veux !
+```
 
 #### Commandes
 * **ppilot5 Command=Stop**	la synthèse vocale est stoppée. ppilot5 renvoie *ppilot5 Answer=Stopped*
 * **ppilot5 Command=Pause**	la synthèse vocale est mise en pause. ppilot5 renvoie *ppilot5 Answer=Paused*
-* **ppilot5 Command=Resume**	la synthèse vocale est relancée si elle était en pause précédemment. ppilot5 renvoie *ppilot5 Answer=Resumed*
+* **ppilot5 Command=Resume** la synthèse vocale est relancée si elle était en pause précédemment. ppilot5 renvoie *ppilot5 Answer=Resumed*
 * **ppilot5 Command=Quit**	l’application se ferme
 
 #### Paramètres
