@@ -23,7 +23,7 @@ Au préalable, il faudra installer les paquets : **make**, **g++**, **gcc**, **l
 
 Télécharger [prcre-7.7](https://github.com/truillet/ivy/blob/master/lib/pcre-7.7.zip) (*P*erl *C*ompatible *R*egex *E*xpression) et dézipper les fichiers dans le répertoire **pcre-7.7**
 
-Télécharger [ivy C](https://github.com/truillet/ivy/blob/master/lib/ivy.zip) et dézipper les fichiers dans le répertoire **ivy** (Vous pouvez aussi trouver le code source ->**[ici](https://gitlab.com/ivybus/ivy-c)**<-
+Télécharger [ivy.zip](https://github.com/truillet/ivy/blob/master/lib/ivy.zip) et dézipper les fichiers dans le répertoire **ivy** (Vous pouvez aussi trouver le code source ->**[ici](https://gitlab.com/ivybus/ivy-c)**<-
 
 Utiliser les commandes suivantes : compiler la librairie PCRE
 ```console
@@ -38,7 +38,9 @@ export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib
 Les librairies PCRE compilées sont stockées dans le répertoire **.libs**. Compiler maintenant la librairie ivy 
 
 ```
-cd ../ivy
+cd ..
+unzip ivy.zip
+cd ivy
 make
 ```
 Vous pouvez maintenant essayer l'outil *ivyprobe* en lançant la commande
