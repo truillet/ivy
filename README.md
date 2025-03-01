@@ -26,8 +26,11 @@ Télécharger [prcre-7.7](https://github.com/truillet/ivy/blob/master/lib/pcre-7
 Télécharger [ivy C](https://github.com/truillet/ivy/blob/master/lib/ivy.zip) et dézipper les fichiers dans le répertoire **ivy** (Vous pouvez aussi trouver le code source ->**[ici](https://gitlab.com/ivybus/ivy-c)**<-
 
 Utiliser les commandes suivantes : compiler la librairie PCRE
-```cd prce-7.7
-./configure
+```console
+unzip pcre7.7.zip
+cd pcre-7.7
+chmod 777 ./configure
+./configuresudo make i
 make
 sudo make install
 export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib
