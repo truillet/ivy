@@ -36,7 +36,7 @@ export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib
 ```
 Les librairies PCRE compilées sont stockées dans le répertoire **.libs**. Compiler maintenant la librairie ivy 
 
-```
+```console
 cd ..
 unzip ivy.zip
 cd ivy
