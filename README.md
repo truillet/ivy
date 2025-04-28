@@ -30,8 +30,7 @@ Utiliser les commandes suivantes : compiler la librairie PCRE
 unzip pcre7.7.zip
 cd pcre-7.7
 chmod 777 ./configure
-./configuresudo make i
-make
+./configure
 sudo make install
 export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib
 ```
