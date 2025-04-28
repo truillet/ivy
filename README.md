@@ -78,7 +78,7 @@ gcc Ecoute.c libivy.a libpcre.a -o Ecoute
 ````
 **Ecoute** est abonné aux messages suivants : *tous '(.\*)'* et *Bye* (qui permet de quitter l'application)
 
-**[Lien 1 vers le code source](https://github.com/lii-enac/libivy)** ou **[Lien 2 vers le code source]([https://github.com/lii-enac/libivy](https://gitlab.com/ivybus/ivy-c)**
+**[Lien 1 vers le code source](https://github.com/lii-enac/libivy)** ou **[Lien 2 vers le code source](https://github.com/lii-enac/libivy](https://gitlab.com/ivybus/ivy-c)**
 
 
 ## librairie ivy/c#
