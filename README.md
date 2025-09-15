@@ -110,7 +110,7 @@ sudo pip3 install ivy-python==4.0
 ```
 *Un exemple de programme ivy avec python3* : [ivyfirst3.py](https://github.com/truillet/ivy/blob/master/code/ivyfirst3.py)
 
-*Un exemple de programme ivy avec python2* : [ivyfirst.py](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/ivyfirst.py)
+*Un exemple de programme ivy avec python2* : [ivyfirst.py](https://github.com/truillet/upssitech/blob/master/SRI/5A/ID/TP/Code/ivyfirst.py)
 
 ## librairie ivy/Qt
 La librairie pour Qt : [IvyQt](https://gitlab.com/ivybus/IvyQt)
