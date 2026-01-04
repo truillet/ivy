@@ -16,7 +16,7 @@ Vous trouverez ci-dessous des outils et les librairies nécessaires à l'écritu
 Le superviseur est un outil ivy et a pour objet de suivre les agents connectés, envoyer des messages afin de simuler les messages envoyés par des agents.
 
 **Un supervisieur du middleware est disponible en mode CLI - Probe (java)** : 
-```
+```console
 java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.255:2010
 ```
 (ou télécharger l'outil Probe **[ici](https://github.com/truillet/ivy/blob/master/code/Probe.zip)**)
@@ -52,9 +52,9 @@ make
 ```
 Vous pouvez maintenant essayer l'outil *ivyprobe* en lançant la commande
 
-```
+```console
 ./ivyprobe "^(.*)"
-```
+``
 Par défaut, ivy se lance sur l'adresse 127.255.255.255:2010 (adresse de broadcast "127.255.255.255" sur le port 2010). Rien ne vous empêche d'en changer 😉 : adresse IP , adresse de broadcast ou de multicast (Ex : 224.0.0.0:2010) [utile si vous voulez connecter vos applications entre windows et WSL2].
 
 Il est temps maintenant de coder votre première application ivy/C. 
@@ -72,18 +72,18 @@ Récupérer le code [*ici*](https://github.com/truillet/ivy/blob/master/code/exa
 Décompresser le fichier, aller dans le répertoire créé (par exemple *ivy_exemple*).
 
 Recopier les fichiers **libivy.a** (depuis le répertoire *ivy*) et **libpcre.a** (depuis le répertoire *pcre7.7/.libs*) précédemment compilés dans ce répertoire.
-``
+```console
 cd ~/cd ivy_exemple
 cp ~/prce7.7/.libs/libpcre.a .
 cp ~/ivy/libivy.a .
-``
+```
 Compiler le code
 
-``
+```console
 gcc Ecoute.c libivy.a libpcre.a -o Ecoute
 
 ./Ecoute
-``
+```
 **Ecoute** est abonné aux messages suivants : *tous '(.\*)'* et *Bye* (qui permet de quitter l'application)
 
 **[Lien 1 vers le code source](https://github.com/lii-enac/libivy)** ou **[Lien 2 vers le code source](https://github.com/lii-enac/libivy](https://gitlab.com/ivybus/ivy-c)**
@@ -113,7 +113,7 @@ La librairie pour OCaml : [ivy/ocaml](https://gitlab.com/ivybus/ivy-ocaml)
 La librairie pour Python :  [ivy-python 4.0](https://pypi.org/project/ivy-python) (v.4.0 au 05/10/2023) ou [lien Gitlab](https://gitlab.com/ivybus/ivy-python) (**[documentation](https://ivy-python.readthedocs.io/en/latest/index.html)**) ou [ [ivy-python 3.3](https://pypi.org/project/ivy-python/3.3) (v.3.3 au 02/02/2021) [_compatible Python 2.7_]
 
 **Pour installer la librairie (Python3) - version stable 4.0** : 
-```
+```console
 sudo pip3 install ivy-python==4.0
 ```
 *Un exemple de programme ivy avec python3* : [ivyfirst3.py](https://github.com/truillet/ivy/blob/master/code/ivyfirst3.py)
