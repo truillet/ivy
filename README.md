@@ -5,13 +5,16 @@ Il s’agit d’un modèle de communication compatible avec la programmation év
 
 **A quoi cela peut-il bien servir ?** Bien que limité à des échanges de messages textuels, ce principe permet de prototyper très rapidement (en ré-utilisant des agents déjà développés) voire de concevoir des systèmes adaptés spécifiquement aux besoins d’une personne, tout cela indépendamment du système.
 
-Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [**ici**](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.8.pdf) <- ou l'article publié à **[IHM 2012](https://hal-enac.archives-ouvertes.fr/hal-00940960/document)**
+Pour en apprendre plus sur le bus logiciel ivy :
+* regarder la présentation -> [**ici**](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.8.pdf) <- ou l'article publié à **[IHM 2012](https://hal-enac.archives-ouvertes.fr/hal-00940960/document)**
+* quelques éléments sont aussi disponibles sur [GitLab](https://gitlab.com/ivybus) et/ou [gitpub](https://gitpub.recherche.enac.fr/ivy).
+* vous pourrez enfin aussi trouver des informations sur le site du projet *[Paparazzi](https://wiki.paparazziuav.org/wiki/Ivy)*
 
-Quelques éléments sont aussi disponibles sur [GitLab](https://gitlab.com/ivybus) et/ou [gitpub](https://gitpub.recherche.enac.fr/ivy).
-
-Vous pourrez enfin aussi trouver des informations sur le site du projet *[Paparazzi](https://wiki.paparazziuav.org/wiki/Ivy)*
+Vous trouverez ci-dessous des outils et les librairies nécessaires à l'écriture des agents ivy.
 
 ## Un "superviseur" du middleware (pour suivre l'émission/réception des messages ivy)
+Le superviseur est un outil ivy et a pour objet de suivre les agents connectés, envoyer des messages afin de simuler les messages envoyés par des agents.
+
 **Un supervisieur du middleware est disponible en mode CLI - Probe (java)** : 
 ```
 java -cp .;ivy-java-1.2.18.jar fr.dgac.ivy.tools.Probe "^(.*)" -b 127.255.255.255:2010
@@ -76,11 +79,11 @@ cp ~/ivy/libivy.a .
 ``
 Compiler le code
 
-````
+``
 gcc Ecoute.c libivy.a libpcre.a -o Ecoute
 
 ./Ecoute
-````
+``
 **Ecoute** est abonné aux messages suivants : *tous '(.\*)'* et *Bye* (qui permet de quitter l'application)
 
 **[Lien 1 vers le code source](https://github.com/lii-enac/libivy)** ou **[Lien 2 vers le code source](https://github.com/lii-enac/libivy](https://gitlab.com/ivybus/ivy-c)**
@@ -91,7 +94,7 @@ La [dll ivy](https://github.com/truillet/ivy/blob/master/lib/ivy_csharp_dll.zip)
 
 *[Un exemple de code ivy avec C#](https://github.com/truillet/ivy/blob/master/code/ppilot_src.zip)* et *[l'exécutable associé](https://github.com/truillet/ivy/blob/master/lib/ppilot5_v3.2.zip)*
 
-## librairie ivy/java (et Processing)
+## librairie ivy/java (et Processing.org)
 Le lien vers la librairie Java : [ivy-java 1.2.18](https://github.com/truillet/ivy/blob/master/lib/ivy-java-1.2.18.jar) ou [ivy-java 1.2.17](https://github.com/truillet/ivy/blob/master/lib/ivy-java-1.2.17.jar)
 
 La [Javadoc est téléchargeable ici](https://github.com/truillet/ivy/blob/master/lib/javadoc-ivy-1.2.18.zip)
@@ -123,12 +126,12 @@ La librairie pour Qt : [IvyQt](https://gitlab.com/ivybus/IvyQt)
 ## libraririe ivy/Rust
 La librairie pour Rust : [ivy-rust](https://github.com/paparazzi/ivy-rust)
 
-# Passerelles entre middlewares divers
+# Des passerelles entre middlewares divers
 Des ponts entre différents protocoles de communication ont été écrits :
 * [TUIO to ivy](https://github.com/truillet/TUIO2ivy) (Lien vers le protocole [TUIO](https://www.tuio.org))
 * [ivy to ROS2](https://github.com/truillet/ivy/blob/master/code/bridge.zip) ([installation et compilation du noeud ROS](https://github.com/truillet/ivy/blob/master/doc/ROS2.md))
 
-# Téléchargement d'agents ivy
+# Téléchargement d'agents ivy déjà développés
 * [OneDollarIvy](https://github.com/truillet/OneDollarIvy) : un agent (*Processing.org*) de reconnaissance de gestes basé sur l'algorithme *"$1 recognizer"*
 * [ppilot 3.3](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip) : un agent (*C#*) Text-to-Speech (SAPI5 avec support SSML) *windows* 
 * [sra5](https://github.com/truillet/ivy/blob/master/agents/sra5.zip) : un agent (*C#*) de reconnaissance vocale (SAPI5, support GrXML) *windows*
