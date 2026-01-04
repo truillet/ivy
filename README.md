@@ -1,4 +1,9 @@
 # Bus logiciel ivy / ivy middleware <img src="https://github.com/truillet/ivy/blob/master/doc/ivylogo.jpg" width=80>
+Ivy est un [bus logiciel](http://www.eei.cena.fr/products/ivy) conçu à la DTI R&D (ex CENA) dans le but de connecter d’une manière extrêmement simple des applications interactives ou pas en elles écrites avec différents langages et fonctionnant sur différentes machines ou plates-formes.
+
+Il s’agit d’un modèle de communication compatible avec la programmation événementielle classique des interfaces graphiques. En un sens, ce bus logiciel implémente une approche multi-agents : les agents apparaissent, émettent des messages et en reçoivent, les traitent puis quittent le bus sans bloquer les autres agents présents. Ivy vise principalement à faciliter le développement rapide de nouveaux agents, et à en contrôler une collection dynamique. Par opposition à certains autres bus logiciels, ivy ne se fonde pas sur un serveur central ou un annuaire qui permet de *router* les demandes d’un agent. Au lancement, tous les agents se présentent à un point de rendez-vous, le reste est transparent pour le programmeur !
+
+**A quoi cela peut-il bien servir ?** Bien que limité à des échanges de messages textuels, ce principe permet de prototyper très rapidement (en ré-utilisant des agents déjà développés) voire de concevoir des systèmes adaptés spécifiquement aux besoins d’une personne, tout cela indépendamment du système.
 
 Pour en apprendre plus sur le bus logiciel ivy, regarder la présentation -> [**ici**](https://github.com/truillet/ivy/blob/master/doc/C_ivy_2.8.pdf) <- ou l'article publié à **[IHM 2012](https://hal-enac.archives-ouvertes.fr/hal-00940960/document)**
 
