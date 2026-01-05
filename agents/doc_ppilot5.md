@@ -1,8 +1,8 @@
 # Utiliser ppilot5
-**[ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip)** permet d’utiliser des systèmes de synthèse vocale compatibles SAPI5.
+**[ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip)** est un agent ivy fonctionnant sous OS Windows permet d’utiliser des systèmes de synthèse vocale compatibles SAPI5.
 
 ## Lancement de l’agent en ligne de commandes
-```
+```console
 ppilot5 -b 127.255.255.255:2010 -r Hortense -o "Microsoft Hortense"
 ```
 Par défaut, **[ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppilot5_3.3.zip)** utilise le premier moteur de TTS trouvé et apparaît sur le bus ivy sous le nom **ppilot5**
@@ -18,7 +18,7 @@ Par défaut, **[ppilot5](https://github.com/truillet/ivy/blob/master/agents/ppil
 * **ppilot5 SaySSML=** *<sequence_SSML>*	ppilot5 prononce la séquence SSML et renvoie *ppilot5 Answer=Finished* quand le buffer est vide. Les balises *\<speak\>* et *\</speak\>* sont automatiquement ajoutées au flux	
 
 **Exemple de séquence SSML :** 
-```
+```console
 ppilot5 SaySSML=Je peux parler <emphasis level="strong">très fort</emphasis> si je veux !
 ```
 
